@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="hero">
+    <div class="container">
+      <img src="my-photo.jpg" alt="Professional Photo" class="profile-photo">
+      <h1>THUBE SHUBHANGI</h1>
+      <p>Web Developer | Designer | Problem Solver</p>
+    </div>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm a passionate web developer with a strong foundation in creating dynamic and user-friendly websites. I have a background in Electronic and Telecommunication and a keen eye for design. My expertise includes working with HTML, CSS, JavaScript, and modern web technologies. I love solving complex problems and bringing ideas to life through code.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTML & CSS</li>
+          <li>JavaScript</li>
+          <li>java</li>
+          <li>c++</li>
+          <li>Responsive Design</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-list">
+          <div class="project">
+            <h3>Quiz Game</h3>
+            <p>Description: An interactive quiz game with multiple-choice questions and a scoring system
+              using HTML,CSS and JAVASCRIPT.</p>
+          </div>
+          <div class="project">
+            <h3>Digital Clock and Timer</h3>
+            <p>Description: Build a digital clock with options for an alarm, stopwatch, and countdown timer. Use CSS for styling and JavaScript for time functions.
+
+            </p>
+          </div>
+          <div class="project">
+            <h3> Simple Calculator</h3>
+            <p>Description:A basic calculator that performs simple arithmetic operations like addition, subtraction, multiplication, and division.
+              Built using HTML for layout, CSS for design, and JavaScript for functionality..</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Feel free to reach out to me via the following platforms:</p>
+        <ul class="social-links">
+          <li><a href="https://github.com/Shubhangi-Thube" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/shubhangi-thube-51ba27259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></li>
+          <li><a href="shubhangithube792@gmail.com">Email</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> THUBE SHUBHANGI. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
